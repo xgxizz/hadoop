@@ -16,11 +16,6 @@ public class WordCountDriver {
     public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException, URISyntaxException {
         //1 获取配置信息，或者job对象实例
         Configuration configuration = new Configuration();
-//       configuration.set("fs.defaultFS","hdfs://hadoop102:9000");
-//        configuration.set("mapreduce.app-submission.cross-platform", "true");//允许跨平台提交
-//        configuration.set("mapreduce.app-submission.cross-platform","false");
-//        configuration.set("fs.hdfs.impl",org.apache.hadoop.hdfs.DistributedFileSystem.class.getName());
-//        configuration.set("fs.file.impl",org.apache.hadoop.fs.LocalFileSystem.class.getName());
         Job job = Job.getInstance(configuration);
         //2 获取jar包位置
         job.setJarByClass(WordCountDriver.class);
