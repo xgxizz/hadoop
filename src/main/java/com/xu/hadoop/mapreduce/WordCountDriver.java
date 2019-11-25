@@ -9,7 +9,6 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 import java.io.IOException;
-import java.net.URI;
 import java.net.URISyntaxException;
 //https://blog.csdn.net/congcong68/article/details/42043093/
 public class WordCountDriver {

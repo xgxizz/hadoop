@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" defaultCharsetForPropertiesFiles="GBK" addBOMForNewFiles="with BOM">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/xu/hadoop/hdfs/optByAPI/HDFS_APIDemo.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/xu/hadoop/mapreduce/WordCountDriver.java" charset="GBK" />
-    <file url="PROJECT" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
