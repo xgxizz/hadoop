@@ -1,0 +1,8 @@
+说明：
+在E:/tmp/wordcount下目前放了五个小文件，
+默认情况下会对五个小文件分别切片，切片的个数为5（在WordCountDriver下执行，默认为切片类位InputFormat）
+使用了CombineTextFormat之后会根据设置的切片最大值和最小值进行合并，例如我使用的小文件平均1k大小，所以根据代码中的设置，只划分了一个切片。
+
+查看切片个数可以参照MapReduce执行之后的输出日志查看：
+INFO [org.apache.hadoop.mapreduce.JobSubmitter] - number of splits:5 (默认)
+INFO [org.apache.hadoop.mapreduce.JobSubmitter] - number of splits:1 (设置CombineTextFormat之后)
