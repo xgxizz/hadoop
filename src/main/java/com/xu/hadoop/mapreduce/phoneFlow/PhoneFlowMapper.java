@@ -13,6 +13,8 @@ import java.io.IOException;
  */
 public class PhoneFlowMapper extends Mapper<LongWritable, Text, Text, FlowBean> {
 
+    Text k = new Text();
+    FlowBean v = new FlowBean();
     @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
         String line = value.toString();
@@ -20,6 +22,10 @@ public class PhoneFlowMapper extends Mapper<LongWritable, Text, Text, FlowBean> 
         String phoneNum = split[0];
         double up = Double.parseDouble(split[split.length - 2]);
         double down = Double.parseDouble(split[split.length - 3]);
-        context.write(new Text(phoneNum), new FlowBean(up, down, 0));
+        k.set(phoneNum);
+        v.setUp(up);
+        v.setDown(down);
+        v.setSum(up + down);
+        context.write(k, v);
     }
 }
