@@ -1,4 +1,4 @@
-package com.xu.hadoop.mapreduce;
+package com.xu.hadoop.mapreduce.wordcount;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
@@ -10,6 +10,7 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
+
 //https://blog.csdn.net/congcong68/article/details/42043093/
 public class WordCountDriver {
     public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException, URISyntaxException {
