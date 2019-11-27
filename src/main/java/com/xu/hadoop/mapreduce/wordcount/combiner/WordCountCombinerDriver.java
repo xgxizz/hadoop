@@ -31,7 +31,9 @@ public class WordCountCombinerDriver {
         job.setOutputValueClass(LongWritable.class);
 
         // 6 指定Combiner类
-        job.setCombinerClass(WordCountCombiner.class);
+        //job.setCombinerClass(WordCountCombiner.class);
+        //combiner 的作用和Reduce作用一致，只是起作用的位置不一致，因此在Driver中可以将setCombinerClass的内容直接使用Reducer.
+        job.setCombinerClass(WordCountReducer.class);
 
         //7 指定job的输入原始文件所在目录以及输出文件目录
         FileInputFormat.setInputPaths(job, new Path(args[0]));
