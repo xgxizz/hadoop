@@ -65,7 +65,6 @@ public class FlowBean implements WritableComparable<FlowBean> {
         return up + "\t" + down +"\t" + sum;
     }
 
-    @Override
     public int compareTo(FlowBean o) {
         return (int) (o.getSum() - this.sum );
     }
