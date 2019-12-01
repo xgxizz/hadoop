@@ -1,8 +1,8 @@
-ËµÃ÷£º
-ÔÚE:/tmp/wordcountÏÂÄ¿Ç°·ÅÁËÎå¸öĞ¡ÎÄ¼ş£¬
-Ä¬ÈÏÇé¿öÏÂ»á¶ÔÎå¸öĞ¡ÎÄ¼ş·Ö±ğÇĞÆ¬£¬ÇĞÆ¬µÄ¸öÊıÎª5£¨ÔÚWordCountDriverÏÂÖ´ĞĞ£¬Ä¬ÈÏÎªÇĞÆ¬ÀàÎ»InputFormat£©
-Ê¹ÓÃÁËCombineTextFormatÖ®ºó»á¸ù¾İÉèÖÃµÄÇĞÆ¬×î´óÖµºÍ×îĞ¡Öµ½øĞĞºÏ²¢£¬ÀıÈçÎÒÊ¹ÓÃµÄĞ¡ÎÄ¼şÆ½¾ù1k´óĞ¡£¬ËùÒÔ¸ù¾İ´úÂëÖĞµÄÉèÖÃ£¬Ö»»®·ÖÁËÒ»¸öÇĞÆ¬¡£
+è¯´æ˜ï¼š
+åœ¨E:/tmp/wordcountä¸‹ç›®å‰æ”¾äº†äº”ä¸ªå°æ–‡ä»¶ï¼Œ
+é»˜è®¤æƒ…å†µä¸‹ä¼šå¯¹äº”ä¸ªå°æ–‡ä»¶åˆ†åˆ«åˆ‡ç‰‡ï¼Œåˆ‡ç‰‡çš„ä¸ªæ•°ä¸º5ï¼ˆåœ¨WordCountDriverä¸‹æ‰§è¡Œï¼Œé»˜è®¤ä¸ºåˆ‡ç‰‡ç±»ä½InputFormatï¼‰
+ä½¿ç”¨äº†CombineTextFormatä¹‹åä¼šæ ¹æ®è®¾ç½®çš„åˆ‡ç‰‡æœ€å¤§å€¼å’Œæœ€å°å€¼è¿›è¡Œåˆå¹¶ï¼Œä¾‹å¦‚æˆ‘ä½¿ç”¨çš„å°æ–‡ä»¶å¹³å‡1kå¤§å°ï¼Œæ‰€ä»¥æ ¹æ®æœ€ç»ˆä»£ç ä¸­çš„è®¾ç½®ï¼Œåªåˆ’åˆ†äº†ä¸€ä¸ªåˆ‡ç‰‡ã€‚
 
-²é¿´ÇĞÆ¬¸öÊı¿ÉÒÔ²ÎÕÕMapReduceÖ´ĞĞÖ®ºóµÄÊä³öÈÕÖ¾²é¿´£º
-INFO [org.apache.hadoop.mapreduce.JobSubmitter] - number of splits:5 (Ä¬ÈÏ)
-INFO [org.apache.hadoop.mapreduce.JobSubmitter] - number of splits:1 (ÉèÖÃCombineTextFormatÖ®ºó)
+æŸ¥çœ‹åˆ‡ç‰‡ä¸ªæ•°å¯ä»¥å‚ç…§MapReduceæ‰§è¡Œä¹‹åçš„è¾“å‡ºæ—¥å¿—æŸ¥çœ‹ï¼š
+INFO [org.apache.hadoop.mapreduce.JobSubmitter] - number of splits:5 (é»˜è®¤)
+INFO [org.apache.hadoop.mapreduce.JobSubmitter] - number of splits:1 (è®¾ç½®CombineTextFormatä¹‹å)

@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
-    <file url="file://$PROJECT_DIR$" charset="GBK" />
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/xu/hadoop/hdfs/optByAPI/HDFS_APIDemo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/xu/hadoop/mapreduce/inputformat/WholeFileInputFormat.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/xu/hadoop/mapreduce/inputformat/WholeRecorderReader.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/xu/hadoop/mapreduce/inputformat/小文件处理案例" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/xu/hadoop/mapreduce/phoneFlow/flow.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/xu/hadoop/mapreduce/wordcount/combineText/tips" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
