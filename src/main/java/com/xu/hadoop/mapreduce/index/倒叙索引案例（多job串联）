@@ -1,0 +1,13 @@
+1. 先执行OneIndexDriver.java
+型长城如下格式数据
+pingping	a.txt---->1
+pingping	b.txt---->3
+pingping	c.txt---->1
+ss	a.txt---->2
+ss	b.txt---->1
+ss	c.txt---->1
+xgx	a.txt---->3
+xgx	b.txt---->2
+xgx	c.txt---->2
+
+2. 再对存放上述格式的文件进行一次MapReduce操作，形成索引格式
