@@ -34,7 +34,5 @@ public class DistributedCacheDriver {
         job.submit();
         boolean result = job.waitForCompletion(true);
         System.exit(result?0:1);
-
-
     }
 }
