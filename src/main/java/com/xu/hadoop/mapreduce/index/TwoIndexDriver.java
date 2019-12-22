@@ -22,7 +22,7 @@ public class TwoIndexDriver {
         job.setReducerClass(TwoIndexReducer.class);
 
         job.setMapOutputKeyClass(Text .class);
-        job.setMapOutputValueClass(Text .class);
+        job.setMapOutputValueClass(Text.class);
 
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(NullWritable .class);
